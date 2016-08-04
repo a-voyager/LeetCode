@@ -14,7 +14,7 @@ public class RemoveInvalidParentheses {
     public static List<String> removeInvalidParentheses(String s) {
         Set<String> sets = new HashSet<>();
         ArrayList<String> list = new ArrayList<>();
-        Queue<Character> parentheses = new LinkedList<>();
+        Stack<Character> parentheses = new Stack<>();
         StringBuilder stringBuilder;
         int len = 0;
         for (int i = 0; i < s.length(); i++) {
@@ -28,7 +28,7 @@ public class RemoveInvalidParentheses {
                 switch (c) {
                     case '(':
                         stringBuilder.append(c);
-                        parentheses.offer(c);
+                        parentheses.add(c);
                         break;
                     case ')':
                         rightParCount++;
@@ -38,7 +38,7 @@ public class RemoveInvalidParentheses {
                         if (parentheses.isEmpty()) {
                             continue;
                         }
-                        if (parentheses.poll() == '(') {
+                        if (parentheses.pop() == '(') {
                             stringBuilder.append(c);
 
                         }
