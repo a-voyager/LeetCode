@@ -16,6 +16,8 @@
 
 ## [114. Flatten Binary Tree to Linked List][8]
 
+## [112. Path Sum][9]
+
 
   [1]: https://leetcode.com/problems/valid-anagram/
   [2]: https://leetcode.com/problems/guess-number-higher-or-lower/
@@ -25,3 +27,4 @@
   [6]: https://leetcode.com/problems/summary-ranges/
   [7]: https://leetcode.com/problems/search-a-2d-matrix-ii/
   [8]: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+  [9]: https://leetcode.com/problems/path-sum/
