@@ -21,18 +21,32 @@ public class FlattenBinaryTreeToLinkedList {
     }
 
     public static void flatten(TreeNode root) {
-        root = flattenTraverse(root);
+//        root = flattenTraverse(root);
+        flatten(root,null);
     }
 
-    private static TreeNode flattenTraverse(TreeNode root) {
-        if (root == null || (root.left == null && root.right == null)) {
-            return root;
-        }
-        TreeNode left = flattenTraverse(root.left);
-        TreeNode right = flattenTraverse(root.right);
-        root.left.right = right;
-        root.right = root.left;
-        return root;
+//    static TreeNode mPrev = null;
+//
+//    private static TreeNode flattenTraverse(TreeNode root) {
+//        if (root == null ) {
+//            return root;
+//        }
+//        TreeNode right = flattenTraverse(root.right);
+//        TreeNode left = flattenTraverse(root.left);
+//        right = mPrev;
+//        left = null;
+//        mPrev = root;
+//        return root;
+//    }
+
+    private static TreeNode flatten(TreeNode root, TreeNode pre) {
+        if(root==null) return pre;
+        pre=flatten(root.right,pre);
+        pre=flatten(root.left,pre);
+        root.right=pre;
+        root.left=null;
+        pre=root;
+        return pre;
     }
 
     public static void main(String[] args) {
