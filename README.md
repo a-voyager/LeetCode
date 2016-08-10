@@ -18,6 +18,8 @@
 
 ## [112. Path Sum][9]
 
+## [278. First Bad Version][10]
+
 
   [1]: https://leetcode.com/problems/valid-anagram/
   [2]: https://leetcode.com/problems/guess-number-higher-or-lower/
@@ -28,3 +30,4 @@
   [7]: https://leetcode.com/problems/search-a-2d-matrix-ii/
   [8]: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
   [9]: https://leetcode.com/problems/path-sum/
+  [10]: https://leetcode.com/problems/first-bad-version/
