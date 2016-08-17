@@ -22,6 +22,8 @@
 
 ## [371. Sum of Two Integers][11]
 
+## [71. Simplify Path][12]
+
 
   [1]: https://leetcode.com/problems/valid-anagram/
   [2]: https://leetcode.com/problems/guess-number-higher-or-lower/
@@ -34,3 +36,4 @@
   [9]: https://leetcode.com/problems/path-sum/
   [10]: https://leetcode.com/problems/first-bad-version/
   [11]: https://leetcode.com/problems/sum-of-two-integers/
+  [12]: https://leetcode.com/problems/simplify-path/
