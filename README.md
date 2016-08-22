@@ -24,6 +24,8 @@
 
 ## [71. Simplify Path][12]
 
+## [24. Swap Nodes in Pairs][13]
+
 
   [1]: https://leetcode.com/problems/valid-anagram/
   [2]: https://leetcode.com/problems/guess-number-higher-or-lower/
@@ -37,3 +39,4 @@
   [10]: https://leetcode.com/problems/first-bad-version/
   [11]: https://leetcode.com/problems/sum-of-two-integers/
   [12]: https://leetcode.com/problems/simplify-path/
+  [13]: https://leetcode.com/problems/swap-nodes-in-pairs/
