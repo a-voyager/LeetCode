@@ -18,6 +18,10 @@ public class PowerTwo {
         return false;
     }
 
+    public static boolean isPowerOfTwo_BETTER(int n) {
+        return n > 0 && (n & n - 1) == 0;
+    }
+
 
     public static void main(String[] args) {
         long before = System.nanoTime();
