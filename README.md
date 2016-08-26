@@ -28,6 +28,8 @@
 
 ## [231. Power of Two][14]
 
+## [1. Two Sum][15]
+
 
   [1]: https://leetcode.com/problems/valid-anagram/
   [2]: https://leetcode.com/problems/guess-number-higher-or-lower/
@@ -43,3 +45,4 @@
   [12]: https://leetcode.com/problems/simplify-path/
   [13]: https://leetcode.com/problems/swap-nodes-in-pairs/
   [14]: https://leetcode.com/problems/power-of-two/
+  [15]: https://leetcode.com/problems/two-sum/
