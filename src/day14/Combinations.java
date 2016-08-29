@@ -13,6 +13,18 @@ import java.util.List;
  */
 public class Combinations {
 
+// Basically,
+// this solution follows the idea of
+// the mathematical formula C(n,k)=C(n-1,k-1)+C(n-1,k).
+
+// Here C(n,k) is divided into two situations.
+// Situation one, number n is selected,
+// so we only need to select k-1 from n-1 next.
+// Situation two, number n is not selected,
+// and the rest job is selecting k from n-1.
+
+
+//    https://discuss.leetcode.com/topic/12537/a-short-recursive-java-solution-based-on-c-n-k-c-n-1-k-1-c-n-1-k
 //    if (k == n || k == 0) {
 //        List<Integer> row = new LinkedList<>();
 //        for (int i = 1; i <= k; ++i) {
