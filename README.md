@@ -36,6 +36,8 @@
 
 ## [77. Combinations][18]
 
+## [5. Longest Palindromic Substring][19]
+
 
   [1]: https://leetcode.com/problems/valid-anagram/
   [2]: https://leetcode.com/problems/guess-number-higher-or-lower/
@@ -55,3 +57,4 @@
   [16]: https://leetcode.com/problems/median-of-two-sorted-arrays/
   [17]: https://leetcode.com/problems/add-two-numbers/
   [18]: https://leetcode.com/problems/combinations/
+  [19]: https://leetcode.com/problems/longest-palindromic-substring/
