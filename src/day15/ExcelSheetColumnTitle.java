@@ -11,26 +11,19 @@ public class ExcelSheetColumnTitle {
 
     public static String convertToTitle(int n) {
         if (n <= 0) return null;
-        String s = Integer.toString(n, 26);
-        char[] array = s.toCharArray();
         StringBuilder builder = new StringBuilder();
-        int length = array.length;
-        for (int i = 0; i < length; i++) {
-            int original = Integer.parseInt(array[i] + "");
-//            if (original > 0) {
-//                char ch = (char) (original - 1 + 'A');
-//                builder.append(ch);
-//            }
-            char ch = (char) (original - 1 + 'A');
-            System.out.println(original + " : " + ch);
+        int num = n;
+        while (num-- != 0) {
+            char c = (char) (num % 26 + 'A');
+            builder.append(c);
+            num /= 26;
         }
-
-        return builder.toString();
+        return builder.reverse().toString();
     }
 
 
     public static void main(String[] args) {
-        String s = convertToTitle(26);
+        String s = convertToTitle(29);
         System.out.println(s);
     }
 
