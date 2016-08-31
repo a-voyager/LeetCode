@@ -40,6 +40,8 @@
 
 ## [168. Excel Sheet Column Title][20]
 
+## [383. Ransom Note][21]
+
 
   [1]: https://leetcode.com/problems/valid-anagram/
   [2]: https://leetcode.com/problems/guess-number-higher-or-lower/
@@ -61,3 +63,4 @@
   [18]: https://leetcode.com/problems/combinations/
   [19]: https://leetcode.com/problems/longest-palindromic-substring/
   [20]: https://leetcode.com/problems/excel-sheet-column-title/
+  [21]: https://leetcode.com/problems/ransom-note/
