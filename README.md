@@ -42,6 +42,8 @@
 
 ## [383. Ransom Note][21]
 
+## [219. Contains Duplicate II][22]
+
 
   [1]: https://leetcode.com/problems/valid-anagram/
   [2]: https://leetcode.com/problems/guess-number-higher-or-lower/
@@ -64,3 +66,4 @@
   [19]: https://leetcode.com/problems/longest-palindromic-substring/
   [20]: https://leetcode.com/problems/excel-sheet-column-title/
   [21]: https://leetcode.com/problems/ransom-note/
+  [22]: https://leetcode.com/problems/contains-duplicate-ii/
