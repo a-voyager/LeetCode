@@ -48,6 +48,8 @@
 
 ## [208. Implement Trie (Prefix Tree)][24]
 
+## [58. Length of Last Word][25]
+
 
   [1]: https://leetcode.com/problems/valid-anagram/
   [2]: https://leetcode.com/problems/guess-number-higher-or-lower/
@@ -73,3 +75,4 @@
   [22]: https://leetcode.com/problems/contains-duplicate-ii/
   [23]: https://leetcode.com/problems/house-robber/
   [24]: https://leetcode.com/problems/implement-trie-prefix-tree/
+  [25]: https://leetcode.com/problems/length-of-last-word/
